@@ -27,3 +27,7 @@ signed_url = cloudfront_signer.generate_presigned_url(
 )
 
 print(signed_url)
+
+#key pair generated commands
+#openssl genrsa -out private_key.pem 2048
+#openssl rsa -pubout -in private_key.pem -out public_key.pem
